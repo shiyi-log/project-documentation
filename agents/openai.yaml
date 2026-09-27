@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Documentation"
+  short_description: "Adaptive project documentation guidance"
+  default_prompt: "Use $project-documentation to choose and update the right project documents for this task."
