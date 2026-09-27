@@ -2,6 +2,7 @@
 """Deterministic packaging checks for the project-documentation skill."""
 
 from pathlib import Path
+import json
 import re
 import sys
 
@@ -19,10 +20,19 @@ REQUIRED_FILES = [
     "references/document-levels.md",
     "references/document-templates.md",
     "references/quality-checklist.md",
+    "references/一致性审计.md",
     "tests/pressure-scenarios.md",
+    "tests/scenarios/生成文档多源一致性.md",
     "tests/baseline-red.md",
     "tests/green-results.md",
     "tests/github-validation-matrix.md",
+    "tests/project-corpus-seed.txt",
+    "tests/project-corpus.json",
+    "tests/test_corpus_manifest.py",
+    "tools/validate_project_corpus.py",
+    "tools/merge_project_results.py",
+    "docs/verification/百项目文档实现一致性验证-20260927.md",
+    "docs/verification/百项目文档实现一致性结果-20260927.json",
 ]
 
 
@@ -65,6 +75,25 @@ def main() -> int:
     for concept in required_concepts:
         if concept.lower() not in skill.lower():
             fail(f"missing core concept: {concept}")
+
+    corpus = json.loads((ROOT / "tests/project-corpus.json").read_text(encoding="utf-8"))
+    projects = corpus.get("projects", [])
+    if len(projects) < 100:
+        fail("project-corpus.json must contain at least 100 projects")
+    repos = [item.get("repo") for item in projects]
+    if len(repos) != len(set(repos)):
+        fail("project-corpus.json contains duplicate repositories")
+
+    results = json.loads(
+        (ROOT / "docs/verification/百项目文档实现一致性结果-20260927.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    if results.get("project_count", 0) < 100:
+        fail("verification report must contain at least 100 projects")
+    result_repos = [item.get("repo") for item in results.get("results", [])]
+    if len(result_repos) != len(set(result_repos)):
+        fail("verification report contains duplicate repositories")
 
     metadata = (ROOT / "agents/openai.yaml").read_text(encoding="utf-8")
     if "$project-documentation" not in metadata:

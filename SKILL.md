@@ -21,6 +21,9 @@ The goal is useful, current, evidence-aware documentation—not a fixed enterpri
 - Never write real secrets, tokens, cookies, private keys, passwords, or unredacted personal data.
 - Do not claim “complete”, “verified”, “production-ready”, “safe”, or “recoverable” without matching evidence.
 - Route decisions, ledgers, workflows, and progress tracking are recommendations. Use them when they reduce risk or improve reuse; never force them onto trivial work.
+- For generated, API, schema, migration, deployment, and operational documentation, perform a multi-source consistency audit; a single file is never sufficient evidence.
+- When the user requests large-scale or 100+ project validation, use a pinned, de-duplicated corpus and record project-level evidence, status, limits, and reproducible commands.
+- When a validation failure exposes a skill loophole, add a pressure scenario, capture the RED baseline, make the smallest rule change, rerun GREEN checks, and report remaining limits.
 
 ## Recommended decision path
 
@@ -32,7 +35,9 @@ Use this path when it helps; compress or skip steps for a small, clear task and 
 4. Select only the documents that answer the user's question. Read the relevant reference below.
 5. Decide whether a route key, ledger, workflow checklist, or progress status would be useful. They are optional.
 6. Write the smallest complete change, then perform proportionate checks on links, commands, examples, tests, generated artifacts, and failure/recovery claims.
-7. State the changed files, evidence, limits, unrun checks, and next step. If the task is larger than one turn, provide a lightweight progress state.
+7. For generated or operational documentation, run or describe a multi-source consistency audit. For this repository, read [references/一致性审计.md](references/一致性审计.md).
+8. If the requested scope is 100 or more projects, validate a fixed corpus of at least 100 distinct projects, preferably in independent batches, and write a project-level report.
+9. State the changed files, evidence, limits, unrun checks, and next step. If the task is larger than one turn, provide a lightweight progress state.
 
 ## Route and progress output
 
@@ -51,7 +56,7 @@ Read [references/route-map.md](references/route-map.md) for route relationships 
 
 ## Document selection
 
-Read [references/document-levels.md](references/document-levels.md) when project size or risk is unclear. Read [references/document-templates.md](references/document-templates.md) when creating a new document. Read [references/quality-checklist.md](references/quality-checklist.md) before claiming a documentation task is complete.
+Read [references/document-levels.md](references/document-levels.md) when project size or risk is unclear. Read [references/document-templates.md](references/document-templates.md) when creating a new document. Read [references/quality-checklist.md](references/quality-checklist.md) before claiming a documentation task is complete. For generated, API, setup, migration, deployment, or runbook docs, also read [references/一致性审计.md](references/一致性审计.md).
 
 ## Common mistakes
 

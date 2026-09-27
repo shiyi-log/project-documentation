@@ -1,11 +1,18 @@
-# Changelog
+# 变更记录
 
 ## 0.1.0 - 2026-09-27
 
-- Added adaptive project-documentation guidance.
-- Added optional route, ledger, workflow, and progress recommendations.
-- Added document levels, templates, quality checks, pressure scenarios, RED baseline, and GitHub validation matrix.
+- 增加自适应项目文档指导。
+- 增加可选的 route、ledger、workflow 和 progress 建议。
+- 增加文档层级、模板、质量检查、压力场景、RED 基线和 GitHub 验证矩阵。
 
 ## 0.1.1 - 2026-09-27
 
-- Added compatibility, migration, generated-document, rollback, and release-publication boundaries from GREEN/REFACTOR validation.
+- 根据 GREEN/REFACTOR 验证增加兼容性、迁移、生成文档、回滚和发布边界。
+
+## 未发布 - 2026-09-27
+
+- 增加生成文档多源一致性审计参考文档。
+- 增加固定 SHA 的 126 项目清单、静态验证器和中文验证报告流程。
+- 增加 100 项目规模验证、逐项目证据矩阵和技能自动修订闭环。
+- 本轮实际完成 126 个不同项目验证：19 个静态多源检查通过，105 个部分通过，2 个因快照限制阻断；结果保存在 `docs/verification/百项目文档实现一致性验证-20260927.md` 和对应 JSON 文件。

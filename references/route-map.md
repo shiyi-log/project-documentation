@@ -1,58 +1,58 @@
-# Route map
+# 路由图
 
-Routing is an optional decision aid. It explains why a documentation task takes a particular path; it is not a mandatory workflow or a requirement to create a route file.
+路由是可选的决策辅助工具，用来说明文档任务为何采用某条路径；它不是强制工作流，也不要求创建 route 文件。
 
-## Route key
+## 路由键
 
 ```text
 <intent>.<project_profile>.<artifact>.<risk>.<evidence>
 ```
 
-### Intent
+### 意图
 
 `create`, `update`, `review`, `audit`, `migrate`, `archive`
 
-### Project profile
+### 项目画像
 
 `basic`, `library`, `multi_module`, `service`, `platform`, `infra`, `regulated`
 
-### Artifact
+### 文档产物
 
 `readme`, `setup`, `architecture`, `api`, `data`, `ops`, `security`, `changelog`, `decision`
 
-### Risk and evidence
+### 风险与证据
 
 Risk: `low`, `medium`, `high`, `regulated`
 Evidence: `static`, `test`, `runtime`, `external`, `production`
 
-## Routing priority
+## 路由优先级
 
-1. User's explicit goal and scope.
-2. Authorized actions and forbidden side effects.
-3. Actual repository structure, source, configuration, tests, and existing docs.
-4. Lifecycle, risk, external dependencies, and audience.
-5. The authoritative source for the rule.
-6. Default templates.
+1. 用户明确的目标和范围。
+2. 已授权动作和禁止的副作用。
+3. 实际仓库结构、源码、配置、测试和现有文档。
+4. 生命周期、风险、外部依赖和受众。
+5. 该规则的权威来源。
+6. 默认模板。
 
-Never infer the route from “personal project” or “enterprise project” alone.
+不能仅凭“个人项目”或“企业项目”推断路由。
 
-## Upgrade signals
+## 升级信号
 
-Suggest a higher-risk route when the task touches databases, migrations, payment, privacy, production, chain operations, multiple services, external authoritative docs, compatibility, generated artifacts, release publication, or regulated data.
+如果任务涉及数据库、迁移、支付、隐私、生产、链操作、多服务、外部权威文档、兼容性、生成产物、发布或受监管数据，建议升级到更高风险路由。
 
-For behavior changes, route beyond the presentation surface:
+发生行为变更时，路由不能停留在展示层：
 
 ```text
 implementation → public contract/API → compatibility/migration → generated docs → tests → release/operations
 ```
 
-Do not assume a README or changelog is the authoritative source merely because it is easy to edit.
+不能仅因为 README 或 changelog 容易编辑，就假设它是权威来源。
 
-## Downgrade signals
+## 降级信号
 
-Use a smaller route when the task is a one-line wording correction, a single-file low-risk note, or a clearly bounded update with no behavior or operational impact.
+如果任务只是改一行文字、修改单个低风险文件，或边界明确且不影响行为与运维，可以使用更小的路由。
 
-## Output example
+## 输出示例
 
 ```text
 route: update.service.data.high.runtime

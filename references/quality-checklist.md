@@ -1,36 +1,38 @@
-# Quality checklist
+# 文档质量检查清单
 
-Use proportionately. A one-line wording fix may need only a diff and link check; a migration or production runbook needs much more.
+按风险和范围使用。一句文字修正可能只需要差异和链接检查；迁移、生成文档或生产运行手册需要多源一致性和失败恢复证据。
 
-## Scope and routing
+## 范围与路由
 
-- [ ] Audience and requested boundary are clear.
-- [ ] The selected docs answer the request.
-- [ ] Out-of-scope docs are not changed.
-- [ ] The authoritative source is identified.
-- [ ] External documentation is labeled as external and dated when relevant.
+- [ ] 受众和请求边界明确。
+- [ ] 所选文档确实回答了请求。
+- [ ] 没有修改范围外文档。
+- [ ] 已识别每条规则的权威来源。
+- [ ] 外部文档在需要时标明外部来源和日期。
 
-## Truth and completeness
+## 事实与完整性
 
-- [ ] Current facts are separated from plans and assumptions.
-- [ ] Commands, paths, ports, versions, examples, and links were checked.
-- [ ] Failure, recovery, rollback, compatibility, and dependency notes are present when applicable.
-- [ ] Generated docs or schemas are synchronized when applicable.
-- [ ] Public API changes include compatibility, migration, deprecation, or release guidance when applicable.
-- [ ] Schema changes distinguish clean-install tests from existing-installation upgrades.
-- [ ] Code rollback is distinguished from data rollback, especially for destructive migrations.
-- [ ] Release preparation is distinguished from actual tag, package, deployment, or production publication.
-- [ ] `not-run`, `blocked`, `partial`, and `not-implemented` boundaries are explicit.
+- [ ] 当前事实与计划、假设分开。
+- [ ] 命令、路径、端口、版本、示例和链接已检查。
+- [ ] 适用时包含失败、恢复、回滚、兼容性和依赖说明。
+- [ ] 适用时已核对生成文档或 Schema 的生成源。
+- [ ] 公开 API 变更在适用时包含兼容性、迁移、弃用或发布说明。
+- [ ] Schema 变更区分全新安装测试和已有安装升级。
+- [ ] 特别是破坏性迁移，区分代码回滚和数据回滚。
+- [ ] 区分发布准备与真实标签、包、部署或生产发布。
+- [ ] 明确 `not-run`、`blocked`、`partial` 和 `not-implemented` 边界。
+- [ ] 生成文档至少与实现、配置/自动化、测试/生成权威中的三类来源交叉核对。
+- [ ] 100 项目规模验证具有固定 SHA、唯一仓库和逐项目证据记录。
 
-## Safety
+## 安全
 
-- [ ] No secrets, tokens, cookies, private keys, passwords, or raw personal data.
-- [ ] No unauthorized deployment, remote write, credential change, or production claim.
-- [ ] No false claim from HTTP 200, build success, or a local-only test.
+- [ ] 没有秘密、令牌、Cookie、私钥、密码或未脱敏个人数据。
+- [ ] 没有未经授权的部署、远端写入、凭据变更或生产结论。
+- [ ] 没有把 HTTP 200、构建成功或本地测试冒充更高等级证据。
 
-## Optional coordination
+## 可选协调
 
-- [ ] Route key is exposed when it improves clarity.
-- [ ] Ledger is suggested only when it reduces risk or improves reuse.
-- [ ] Workflow and progress are compressed or omitted for low-risk work.
-- [ ] If used, the final state and next step are clear.
+- [ ] 在有助于说明时公开 route key。
+- [ ] 只有能降低风险或改善复用时才建议台账。
+- [ ] 低风险工作压缩或省略 workflow 和 progress。
+- [ ] 使用时明确最终状态和下一步。

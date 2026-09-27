@@ -1,22 +1,25 @@
-# GREEN results — after loading `project-documentation`
+# GREEN 结果——加载 `project-documentation` 后
 
-Date: 2026-09-27
-Method: two fresh-context agents read the skill and relevant references; no files or upstream repositories were modified.
+日期：2026-09-27
+方法：两个全新上下文代理读取技能和相关参考文档；没有修改上游项目。
 
-## Confirmed behavior
+## 已确认行为
 
-- A tiny CLI change was routed as a bounded README/CLI-contract update; architecture, operations, security, ledger, formal workflow, and progress files were omitted.
-- A large infrastructure change was routed through implementation, build scripts/CI, authoritative build docs, compatibility, and proportionate validation; a lightweight ledger and progress state were recommended rather than forced.
-- “Document everything” was treated as ambiguous; the agents requested audience and lifecycle scope before editing.
-- A public library API change was routed through API docs, compatibility/migration notes, tests/examples, and release notes rather than README-only documentation.
-- A multi-service schema/boundary change was routed through migration, service contracts, deployment order, rollback limits, runbook, generated artifacts, and separate evidence levels.
-- A one-line README correction was kept to a one-line static change with no route file, ledger, workflow, or progress system.
+- 小型 CLI 变更被路由为有界的 README/CLI 契约更新，没有强行加入架构、运维、安全、台账、正式工作流或进度文件。
+- 大型基础设施变更沿实现、构建脚本/CI、权威构建文档、兼容性和相称验证路由；轻量台账和进度只被建议，没有强制。
+- “把所有文档写全”被视为范围不明，代理会先确认受众和生命周期边界。
+- 公开库 API 变更会经过 API 文档、兼容性/迁移说明、测试/示例和发布说明，而不是只改 README。
+- 多服务 Schema/边界变更会覆盖迁移、服务契约、部署顺序、回滚限制、运行手册、生成产物和分级证据。
+- 一行 README 修正保持为一行静态变更，没有创建 route、ledger、workflow 或 progress 系统。
+- 生成文档场景会列出实现、配置/自动化、测试/生成权威和文档四类来源，并保留冲突状态。
+- 百项目场景会使用固定 SHA、唯一仓库、批次结果和中文汇总报告。
 
-## Remaining loopholes found
+## 本轮验证留下的限制
 
-- A changelog can claim a behavior change while API semantics or compatibility guidance remain stale.
-- A migration that works on a clean database does not prove upgrades for existing installations.
-- Code rollback can be possible while data rollback is destructive or lossy.
-- “Release documentation prepared”, a local build, or a passing unit test does not prove publication or production acceptance.
+- changelog 仍可能声称行为变更，而 API 语义或兼容性指导过时。
+- 在全新数据库上成功的迁移不证明已有安装升级安全。
+- 代码可以回滚，但数据回滚可能破坏性或有损。
+- “发布文档已准备”、本地构建或单元测试通过不证明已经发布或生产验收。
+- 静态规则无法替代浏览器、真实数据库、外部 Provider、链上、Telegram、CI 或生产证据。
 
-These loopholes are addressed by the current skill rules and quality checklist.
+这些限制由当前技能规则、一致性审计参考文档和质量检查清单明确标注。

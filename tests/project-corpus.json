@@ -1,0 +1,1518 @@
+{
+  "generated_at": "2026-09-27",
+  "source": "project-corpus-seed.txt",
+  "projects": [
+    {
+      "repo": "sharkdp/fd",
+      "default_branch": "master",
+      "commit": "ce97e473ebaec49697c07daa50a7bc2b32f713d2",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "sharkdp/bat",
+      "default_branch": "master",
+      "commit": "4987f76709aae3a1c4db723c53874c9ddcb0c4fd",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "BurntSushi/ripgrep",
+      "default_branch": "master",
+      "commit": "3fce3b5bb0236da2df6d99672afb8a719642eca7",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "eza-community/eza",
+      "default_branch": "main",
+      "commit": "471bfbc7b03cbac8c738e8d9050edb06ee79132a",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "junegunn/fzf",
+      "default_branch": "master",
+      "commit": "b1be3a8be1b833ce5b92fbbac11637643d60a046",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "tldr-pages/tldr",
+      "default_branch": "main",
+      "commit": "0ffdea6b93e43975d57ce4fc1da9d391f5cb27e9",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "cli/cli",
+      "default_branch": "trunk",
+      "commit": "9b031151a825bda919203c5202876a725d637368",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "starship/starship",
+      "default_branch": "main",
+      "commit": "cc825b00a92492d231a451923a397f5d0f3f6165",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "jqlang/jq",
+      "default_branch": "master",
+      "commit": "9a75bb0d4318bb6f6509635d89319ff40ee9ecac",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "httpie/cli",
+      "default_branch": "master",
+      "commit": "5b604c37c6c67e18e7c3e9aee6c88a8c22b98345",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "direnv/direnv",
+      "default_branch": "master",
+      "commit": "b00e451f547f39be7ab836d969054114a465a0f9",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "asdf-vm/asdf",
+      "default_branch": "master",
+      "commit": "cb72590e9f9691b6e651aecfe4b0c9334adff41b",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "nektos/act",
+      "default_branch": "master",
+      "commit": "4f411281417e88660bea1c1a1749aa71ae0bd60f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "charmbracelet/bubbletea",
+      "default_branch": "main",
+      "commit": "d5bfd5c2ff7480a6b94536c1cf4e73569b8d523e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "charmbracelet/gum",
+      "default_branch": "main",
+      "commit": "879f048103adf0214b85943b52d8d65b08d772c5",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "psf/requests",
+      "default_branch": "main",
+      "commit": "611c6162cbc4ac2020a2f91c7cfa4f3abf9bbb60",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "encode/httpx",
+      "default_branch": "master",
+      "commit": "b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pallets/flask",
+      "default_branch": "main",
+      "commit": "d73fa1cdcbd8b1465c151db8924ba58b1dd14e35",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "django/django",
+      "default_branch": "main",
+      "commit": "4fab678a0739d54401ccee7eb587553657c9f76e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "tiangolo/fastapi",
+      "default_branch": "master",
+      "commit": "192b12197eb04c2b4a691cce7d87261b21716714",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "default_branch": "main",
+      "commit": "bb6da4cfbb1f559885ea2fa207ec93853bfeac64",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "sqlalchemy/sqlalchemy",
+      "default_branch": "main",
+      "commit": "65ea6bee82149495a57ea821e0934a9a5d0ded51",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pytest-dev/pytest",
+      "default_branch": "main",
+      "commit": "c333125d977b323fafbeb0e09cd86e203ab4af39",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pypa/pip",
+      "default_branch": "main",
+      "commit": "a7002c9771a6c3f0317a4e6b9fbdcd22e643f7b6",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pypa/virtualenv",
+      "default_branch": "main",
+      "commit": "f2906e53dc256f41fd5316579b09d254237d74a6",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "python-poetry/poetry",
+      "default_branch": "main",
+      "commit": "135631bbb93ed05834ea53a1367d7966880e2db5",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "default_branch": "main",
+      "commit": "ca8b416f05b1b210bb1741f9483081261bcc16e9",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "psf/black",
+      "default_branch": "main",
+      "commit": "8d5a2d9f49378d7abe2eb632df1601818de8c24e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "python/mypy",
+      "default_branch": "master",
+      "commit": "0861bb6450d6d3658e44dbca9cd2ba478faf3c1d",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "celery/celery",
+      "default_branch": "main",
+      "commit": "e1dba84f8d91d9cebf5b0fee99532b6734993d20",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "numpy/numpy",
+      "default_branch": "main",
+      "commit": "a98529dfd92d73fd4d40ebaaf285cf2463bb92b1",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pandas-dev/pandas",
+      "default_branch": "main",
+      "commit": "7aac4015369fe20bde6641276fc2fd1b11ca554b",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "scipy/scipy",
+      "default_branch": "main",
+      "commit": "2d6192d1d87c8c1a029edec883b35681c041d86b",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "scikit-learn/scikit-learn",
+      "default_branch": "main",
+      "commit": "857849927da6e988d7d026b17aef214d43e5f26e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "matplotlib/matplotlib",
+      "default_branch": "main",
+      "commit": "2d0352ae25bd3be72b1585f70e36b5e4cd07bc9c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "jupyter/notebook",
+      "default_branch": "main",
+      "commit": "38b1b190d84b7bdf75c124ee100d6bb5b5f47318",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "ipython/ipython",
+      "default_branch": "main",
+      "commit": "93dde62b5b76275dbd1a1cfda328969fa59caa08",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "jupyterlab/jupyterlab",
+      "default_branch": "main",
+      "commit": "a62365d745fee48f7d59c60bda377a2ed14415a8",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "openai/openai-python",
+      "default_branch": "main",
+      "commit": "43443d14c5ab8b9bc9d7aaf31263351f071afca2",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "huggingface/transformers",
+      "default_branch": "main",
+      "commit": "96331a9f93b72697f160a958d2883d4b49a56739",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "default_branch": "master",
+      "commit": "80b74090515a594cc8421fb2d82e98f4e256c29f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pypa/build",
+      "default_branch": "main",
+      "commit": "58c921aada7f4e03edda65545d42db0c8b000bdc",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pypa/twine",
+      "default_branch": "main",
+      "commit": "f536ac5d0c77a24a997854328e64644f576b4992",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pallets/click",
+      "default_branch": "main",
+      "commit": "06b2a678741131fd577ce170e23e5ca0aeba0309",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "python/cpython",
+      "default_branch": "main",
+      "commit": "7731da1fe749eafe0d97f80ab0021d6fd1b47c8d",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "prefecthq/prefect",
+      "default_branch": "main",
+      "commit": "4f52bc6d0dd8186ca63bdd0552c5e21f05b483b2",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "encode/starlette",
+      "default_branch": "main",
+      "commit": "85c3b7434fd6b58596486dbe93cfe605ee358881",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "python-attrs/attrs",
+      "default_branch": "main",
+      "commit": "8f767776326faaed11e6c2974798787f6e19b343",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "facebook/react",
+      "default_branch": "main",
+      "commit": "d083ec1da1e5252abd3ddfdde6dfbc09701a2c51",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "vuejs/core",
+      "default_branch": "main",
+      "commit": "4ab865a848a1da3d10fb674f857e5fff13094644",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "angular/angular",
+      "default_branch": "main",
+      "commit": "319a3c4f3268f4f96ac4acdbb118737d2261e0be",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "sveltejs/svelte",
+      "default_branch": "main",
+      "commit": "f90853565966bc0bab57c99fe7d669a91bef0f4c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "vercel/next.js",
+      "default_branch": "canary",
+      "commit": "0423222b7eb3a1373b5bff4c939fd69858928993",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "nuxt/nuxt",
+      "default_branch": "main",
+      "commit": "c356321e3318b21b3aa7bfb0e16ea7c23a1f369a",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "vitejs/vite",
+      "default_branch": "main",
+      "commit": "bc598a6a8a6b7d6e157e9f19c16911cff8d2360c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "webpack/webpack",
+      "default_branch": "main",
+      "commit": "b54c5e2aa26dd0267bc904d45402f811f100186c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "eslint/eslint",
+      "default_branch": "main",
+      "commit": "02e34ffba6adbed72365177c7caee71d950834e5",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "prettier/prettier",
+      "default_branch": "main",
+      "commit": "88d8e96365bf9885dfe795ac9a15cd69ad8356f0",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "storybookjs/storybook",
+      "default_branch": "next",
+      "commit": "5efca7a6ab523726d4a0f2fbea00bbf5b66c3fe1",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pnpm/pnpm",
+      "default_branch": "main",
+      "commit": "16f56b91be61972b65b559f8a84a94efcea3f794",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "yarnpkg/berry",
+      "default_branch": "master",
+      "commit": "e4e423a1eb117b5129f20ac626a03eb7a97aedff",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "nodejs/node",
+      "default_branch": "main",
+      "commit": "3641c36af1e99d47d0b90a9e86143153efdc54a8",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "denoland/deno",
+      "default_branch": "main",
+      "commit": "b157cd27e153f0a3e2ef10a6a31edfd105fcbf93",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "oven-sh/bun",
+      "default_branch": "main",
+      "commit": "a4f1429148114ddc3bccc13764781be27a7a9523",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "microsoft/TypeScript",
+      "default_branch": "main",
+      "commit": "4f5ddae224b9529a69b571f631fe3a2cb283162f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "expressjs/express",
+      "default_branch": "master",
+      "commit": "9a34acf03cb818ff3f8bc40e44176e277a25cbb9",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "nestjs/nest",
+      "default_branch": "master",
+      "commit": "b58554ea5857445841674963211e4f3f41b0a3a4",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "remix-run/react-router",
+      "default_branch": "main",
+      "commit": "40faa3305d3c8d5341fc118f14e769a3113fe75c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "microsoft/playwright",
+      "default_branch": "main",
+      "commit": "b9a34ac7783a1b6c2e1dfff0c08ac744c048fa59",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "cypress-io/cypress",
+      "default_branch": "develop",
+      "commit": "21122f50f1377b3e7a7dce8de59018da82aaa807",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "testing-library/dom-testing-library",
+      "default_branch": "main",
+      "commit": "6049cc0bc7cf2201625c476c95fa6299d0e2fa8b",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "tailwindlabs/tailwindcss",
+      "default_branch": "main",
+      "commit": "fa81d697fe572a10ac150d18964a093a7a874081",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "shadcn-ui/ui",
+      "default_branch": "main",
+      "commit": "98a1fe67b439324ddc857f47fbdce056600a4329",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "vitest-dev/vitest",
+      "default_branch": "main",
+      "commit": "428e2e5043c64635b6b157358bde2fdeaa7b6b3a",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "rollup/rollup",
+      "default_branch": "master",
+      "commit": "299f95cd86e85fffb7626c66dfe1e4dc2cb3fe43",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "parcel-bundler/parcel",
+      "default_branch": "v2",
+      "commit": "59484858a1a0bcbb71f74088956bb437a2db6505",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "kubernetes/kubernetes",
+      "default_branch": "master",
+      "commit": "6c1c7702cf2052245ef10e699d45f071af306f59",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "kubernetes/helm",
+      "default_branch": "main",
+      "commit": "d31cd6992fc7858922de6ebe5984a06fd6aa0b80",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "hashicorp/terraform",
+      "default_branch": "main",
+      "commit": "db4eef44f5bbd39a115f939304279caee7cf9b12",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "ansible/ansible",
+      "default_branch": "devel",
+      "commit": "7ec731bfd2dbfd7b5a11ac53bf32ad2a4bf57ed4",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "docker/compose",
+      "default_branch": "main",
+      "commit": "32bddfc4c693dd1b9ed8633ff2adb2d511a07ee1",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "moby/moby",
+      "default_branch": "master",
+      "commit": "4359a27c23a6218a8a25b136ecfa580cfc48c366",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "containerd/containerd",
+      "default_branch": "main",
+      "commit": "04f9be90bdaae78a0138cc2ba2b265bd7f1ea1a0",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "prometheus/prometheus",
+      "default_branch": "main",
+      "commit": "ea954809ceafceb53ecfa295ab0947753929de9e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "grafana/grafana",
+      "default_branch": "main",
+      "commit": "3bd23d9455efd3fabd2979e65315aa6e64bb0f52",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "grafana/loki",
+      "default_branch": "main",
+      "commit": "83d5c2bfb29e69a3090389cab7e8249206a5c856",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "elastic/elasticsearch",
+      "default_branch": "main",
+      "commit": "9438d0a669470822054ce2f2278b1613d07a678e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-collector",
+      "default_branch": "main",
+      "commit": "3580e28a9386c3971db4f2bee9cde5cd500a57a4",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "envoyproxy/envoy",
+      "default_branch": "main",
+      "commit": "c1dccc0b278268e05425f3e5d087f853e5ece663",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "istio/istio",
+      "default_branch": "master",
+      "commit": "9c8ba319f1d5744fdcc9bc6a6f8ffd5d72473d68",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/airflow",
+      "default_branch": "main",
+      "commit": "1d916545b2b1bb36ca79c8d7691f7b662419348c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/superset",
+      "default_branch": "master",
+      "commit": "2e13cfa3e481cf734b8b2548103f06b07371ec22",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/kafka",
+      "default_branch": "trunk",
+      "commit": "a8dc4046ece33f60a71f8d094f1ddbb5459a4b69",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "redis/redis",
+      "default_branch": "unstable",
+      "commit": "20bb2cfc54aa08c8fdfb8c4c0a8b8258e811711e",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "etcd-io/etcd",
+      "default_branch": "main",
+      "commit": "7583cc6e7e2756bb4166d646fe48d2fa1863b4b6",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "argoproj/argo-workflows",
+      "default_branch": "main",
+      "commit": "d0cfa58f52793353ace714c9b792d3dc903093ee",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "fluxcd/flux2",
+      "default_branch": "main",
+      "commit": "3fd91f568c22c3f406a541e8adf1e98b3c142b3c",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "argoproj/argo-cd",
+      "default_branch": "master",
+      "commit": "bba10dd8861c881057e2ea8b82d455b0573ac75f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "jenkinsci/jenkins",
+      "default_branch": "master",
+      "commit": "70d3bbb786faf41b097e0a1c373ea3052ed3354f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "prometheus/node_exporter",
+      "default_branch": "master",
+      "commit": "60ce437b9c737c3b9a9619df457ae68a067d3cfc",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-python",
+      "default_branch": "main",
+      "commit": "eaa74aa6d74228b0b100c82e690c6b2a384ebde7",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "nginx/nginx",
+      "default_branch": "master",
+      "commit": "939334efff3575ce52597cc8c13d55821044ac57",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "traefik/traefik",
+      "default_branch": "master",
+      "commit": "f08964179357f5170d1bc515213b16e120d02e6d",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "cert-manager/cert-manager",
+      "default_branch": "master",
+      "commit": "e49dcc6f112753444da8f7c5ecbf715059c40af2",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "crossplane/crossplane",
+      "default_branch": "main",
+      "commit": "b56f55c021a195ceb301e2ff6a937db014887e43",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "minio/minio",
+      "default_branch": "master",
+      "commit": "7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "pytorch/pytorch",
+      "default_branch": "main",
+      "commit": "27bcb57881c500c056fed842fdc80899e0250f72",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "tensorflow/tensorflow",
+      "default_branch": "master",
+      "commit": "b5d8801b1e0db562ced3f7f940c65f25d7aea453",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/spark",
+      "default_branch": "master",
+      "commit": "f5498a9dab976099d83f5230f7600b52960b63ce",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/arrow",
+      "default_branch": "main",
+      "commit": "51955ecd2c0bb94b55c2130171386f8568fc2dbe",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "dask/dask",
+      "default_branch": "main",
+      "commit": "9dc535daa30d7d36d63d4a003b54342fbc7032db",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "ray-project/ray",
+      "default_branch": "master",
+      "commit": "1cf93ad5348d61dc78d43098c960c123f385f77a",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "mlflow/mlflow",
+      "default_branch": "master",
+      "commit": "6fa4056774b13c0daa545bbcd478b76dbc98cf8f",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "bentoml/BentoML",
+      "default_branch": "main",
+      "commit": "517b343b81aeb0b01bbd908e58e53ad9c12ef7eb",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "dagster-io/dagster",
+      "default_branch": "master",
+      "commit": "a148082de80eba8dfa343020284316e8dd2327eb",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "dbt-labs/dbt-core",
+      "default_branch": "main",
+      "commit": "56cf8733485e2c97ef1e49682620045fc5726bf8",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "duckdb/duckdb",
+      "default_branch": "v2.0-cyanoptera",
+      "commit": "d8a1bd4f4fbccdf3d22d8f1fe27a94c11c805d0a",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "ClickHouse/ClickHouse",
+      "default_branch": "master",
+      "commit": "8ccea5b3ac7d29c1194d8dc4f4a3db598f7f0ef8",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "postgres/postgres",
+      "default_branch": "master",
+      "commit": "3c5d9d914fa5b8fb3f371dd97bdece032ca3598d",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "bitcoin/bitcoin",
+      "default_branch": "master",
+      "commit": "ed7dd7cf4e1561a97edf72eba29a67b14e28c717",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "ethereum/go-ethereum",
+      "default_branch": "master",
+      "commit": "920c07774c65ebb3023536f85df642c44478b540",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "solana-labs/solana",
+      "default_branch": "master",
+      "commit": "7700cb3128c1f19820de67b81aa45d18f73d2ac0",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "gristlabs/grist-core",
+      "default_branch": "main",
+      "commit": "34542eab62f0decb309a7e0476c3009fc6567f29",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/beam",
+      "default_branch": "master",
+      "commit": "6f0047c13a7e1e82b903313c45cdc0a0f9c22dc3",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/flink",
+      "default_branch": "master",
+      "commit": "3aed2634768aec6f72763a9c6bebd7e70d9fc2c9",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    },
+    {
+      "repo": "apache/iceberg",
+      "default_branch": "main",
+      "commit": "75072c4d6a7e18f86e327d272416bd48d78ed559",
+      "status": "not-run",
+      "sources": {
+        "docs": [],
+        "implementation": [],
+        "configuration": [],
+        "tests_or_generated_authority": []
+      }
+    }
+  ]
+}

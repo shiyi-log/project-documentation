@@ -1,36 +1,35 @@
 # project-documentation
 
-`project-documentation` is a Codex skill for creating, updating, reviewing, and auditing project documentation.
+`project-documentation` 是一个用于创建、更新、审查和审计项目文档的 Codex 技能。
 
-It is intentionally adaptive:
+它按项目实际复杂度自适应：
 
-- a one-line README correction stays small;
-- a library change can route through API, compatibility, migration, and release documentation;
-- a multi-service or infrastructure change can surface architecture, data, deployment, recovery, external authority, and validation boundaries;
-- a personal developer can use any documentation level when the project is large or risky.
+- 一行 README 修正保持小范围；
+- 库的变更可以路由到 API、兼容性、迁移和发布文档；
+- 多服务或基础设施变更可以展开架构、数据、部署、恢复、外部权威和验证边界；
+- 个人维护者的项目如果规模大或风险高，同样可以使用更高文档层级。
 
-Routing, ledgers, workflows, and progress tracking are optional recommendations, not mandatory ceremony. The hard boundaries are truthful status, scope discipline, secret protection, and honest evidence.
+路由、台账、工作流和进度跟踪都是可选建议，不是强制仪式。不可妥协的边界是状态真实、范围受控、秘密受保护、证据诚实。
 
-## Install
+## 安装
 
-Copy or symlink this directory to the Codex skills directory:
+将本目录复制或链接到 Codex 技能目录：
 
 ```text
 ~/.codex/skills/project-documentation
 ```
 
-For this repository checkout, the installed path is the directory containing
-this README. A fresh Codex session can discover the skill after it is placed
-under the user's configured skills directory.
+对于本仓库，安装路径就是本 README 所在目录。放入用户配置的技能目录后，新 Codex 会话即可发现该技能。
 
-## References
+## 参考文档
 
 - `references/route-map.md`
 - `references/progress-model.md`
 - `references/document-levels.md`
 - `references/document-templates.md`
 - `references/quality-checklist.md`
+- `references/一致性审计.md`
 
-## Validation
+## 验证
 
-Pressure scenarios and the pre-skill RED baseline are in `tests/`. The GitHub corpus is read-only and covers a CLI, libraries, a multi-service app, a platform, and infrastructure.
+压力场景和加载技能前的 RED 基线在 `tests/`。项目清单是只读上游输入，覆盖 CLI、库、多服务应用、平台和基础设施；百项目验证还会记录固定 SHA 和逐项目多源证据。

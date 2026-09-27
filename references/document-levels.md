@@ -1,10 +1,10 @@
-# Document levels
+# 文档层级
 
-Choose by project complexity and risk, not by whether the owner is an individual or a company.
+按项目复杂度和风险选择，不按个人或公司的所有者身份选择。
 
-## Level 1 — basic or single-component
+## 第 1 级——基础或单组件项目
 
-Usually enough:
+通常足够：
 
 ```text
 README.md
@@ -13,11 +13,11 @@ CHANGELOG.md (if releases matter)
 TODO or issue tracker (if follow-up work matters)
 ```
 
-Merge small documents into README when that is clearer.
+如果更清晰，可以把小文档合并到 README。
 
-## Level 2 — library or multi-module project
+## 第 2 级——库或多模块项目
 
-Add what applies:
+按需增加：
 
 ```text
 API / usage docs
@@ -27,9 +27,9 @@ architecture or decision notes
 data model
 ```
 
-## Level 3 — long-running or externally used service
+## 第 3 级——长期运行或对外使用的服务
 
-Add what applies:
+按需增加：
 
 ```text
 deployment
@@ -40,9 +40,9 @@ incident response
 security and configuration
 ```
 
-## Level 4 — high-risk or regulated
+## 第 4 级——高风险或受监管项目
 
-Add only when justified:
+只有确有理由时增加：
 
 ```text
 threat model
@@ -53,4 +53,4 @@ compliance
 change management
 ```
 
-Any level can apply to a personal project. Do not create an empty document merely because a level lists it.
+任何级别都可以用于个人项目。不要仅因为层级清单列出了某类文档，就创建没有内容的空文档。

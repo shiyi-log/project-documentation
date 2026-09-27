@@ -1,84 +1,84 @@
-# Document templates
+# 文档模板
 
-Use the smallest template that answers the request. Replace placeholders; do not leave `TBD` or invented facts in a final document.
+使用能够回答请求的最小模板。替换占位内容；最终文档不得留下 `TBD` 或编造的事实。
 
-## README / entry point
+## README / 入口文档
 
 ```markdown
-# Project name
+# 项目名称
 
-## Purpose
-What problem this solves.
+## 用途
+说明项目解决的问题。
 
-## Current status
-What is usable, what is partial, and what is not implemented.
+## 当前状态
+说明什么可用、什么是部分完成、什么尚未实现。
 
-## Quick start
-Commands and prerequisites verified for the stated environment.
+## 快速开始
+列出在声明环境中验证过的命令和前置条件。
 
-## Scope
-Included and explicitly out of scope.
+## 范围
+说明包含内容和明确排除内容。
 
-## More documentation
-Links to setup, architecture, API, operations, or security docs when they exist.
+## 更多文档
+在存在时链接安装、架构、API、运维或安全文档。
 ```
 
-## Architecture
+## 架构文档
 
 ```markdown
-# Architecture
+# 架构
 
-## Context and scope
-System boundary and audience.
+## 上下文与范围
+系统边界和受众。
 
-## Components and data flow
-Modules, dependencies, and important state transitions.
+## 组件与数据流
+模块、依赖和重要状态转换。
 
-## Contracts and source of truth
-APIs, schemas, generated artifacts, or code that owns each rule.
+## 契约与权威来源
+说明每条规则由哪个 API、Schema、生成产物或代码负责。
 
-## Failure and recovery
-Timeouts, retries, partial success, rollback limits, and operator actions.
+## 失败与恢复
+超时、重试、部分成功、回滚限制和操作员动作。
 
-## Verification and limits
-What was checked, what was not run, and what remains uncertain.
+## 验证与限制
+说明已检查内容、未运行内容和仍不确定的部分。
 ```
 
-## Runbook
+## 运行手册
 
 ```markdown
-# Runbook
+# 运行手册
 
-## Preconditions
-Environment, permissions, dependencies, and configuration.
+## 前置条件
+环境、权限、依赖和配置。
 
-## Start / stop / deploy
-Commands with expected results.
+## 启动 / 停止 / 部署
+命令和预期结果。
 
-## Health and logs
-Where to check status and what signals matter.
+## 健康状态与日志
+在哪里检查状态，以及哪些信号重要。
 
-## Failure and recovery
-Safe diagnosis, rollback, repair, and escalation.
+## 失败与恢复
+安全诊断、回滚、修复和升级处理。
 
-## Backup and data loss
-Recovery point, recovery time, irreversible actions, and limits.
+## 备份与数据丢失
+恢复点、恢复时间、不可逆动作和限制。
 ```
 
-## Decision record
+## 决策记录
 
 ```markdown
-# Decision: <short title>
+# 决策：<简短标题>
 
-## Context
-What forced a choice.
+## 上下文
+什么因素迫使我们做出选择。
 
-## Decision
-What is selected.
+## 决策
+选择了什么。
 
-## Alternatives
-What was considered and rejected.
+## 备选方案
+考虑过什么，以及为什么拒绝。
 
-## Consequences
-Benefits, costs, limits, and follow-up.
+## 后果
+收益、成本、限制和后续工作。
 ```

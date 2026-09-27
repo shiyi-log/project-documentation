@@ -1,12 +1,16 @@
-# Pressure scenarios
+# 压力场景
 
-These scenarios test whether the skill routes documentation proportionately without forcing a route, ledger, workflow, or progress file.
+本文件中的新增场景和验证报告使用中文；`SKILL.md` 可以保持英文，以兼容技能发现和触发。
 
-1. **Tiny CLI / time pressure** — `sharkdp/fd`: add one flag and update the user-facing documentation. Do not invent enterprise governance.
-2. **Mature library / release pressure** — `psf/requests`: change public API behavior and prepare release documentation. Find API, compatibility, migration, and changelog surfaces.
-3. **Multi-service / data risk** — `immich-app/immich`: change a database field and service boundary. Identify migration, contract, deployment, rollback, and operator-doc implications.
-4. **Large platform / external authority** — `kubernetes/kubernetes`: update build documentation after a core change. Distinguish repository files from external authoritative docs and platform validation.
-5. **Ambiguous scope / authority pressure** — user says “document everything”. Ask for audience and boundary, then propose a bounded inventory.
-6. **Trivial edit / anti-overreach** — change one README sentence. Make the smallest valid diff; do not create a route map, ledger, or progress system.
+这些场景用于验证技能能否按比例路由文档任务，同时不会强制创建 route、ledger、workflow 或 progress 文件。
 
-For each scenario, score document scope, route explanation, optional coordination, evidence labels, failure/recovery coverage, and no-side-effect behavior.
+1. **小型 CLI / 时间压力** — `sharkdp/fd`：增加一个参数并更新用户文档，不引入企业治理流程。
+2. **成熟库 / 发布压力** — `psf/requests`：改变公开 API 行为并准备发布文档，查找 API、兼容性、迁移和 changelog 表面。
+3. **多服务 / 数据风险** — `immich-app/immich`：修改数据库字段和服务边界，识别迁移、契约、部署、回滚和运维文档影响。
+4. **大型平台 / 外部权威** — `kubernetes/kubernetes`：核心变更后更新构建文档，区分仓库文件、外部权威文档和平台验证。
+5. **范围含糊 / 权威压力** — 用户说“把所有文档写全”，先询问受众和边界，再提出有界清单。
+6. **微小编辑 / 反过度设计** — 修改一句 README，保持最小差异，不创建 route、ledger 或 progress 系统。
+7. **生成文档 / 多源一致性** — 使用 `tests/scenarios/生成文档多源一致性.md`，至少交叉检查文档、实现、配置/自动化和测试/生成源。
+8. **百项目规模 / 证据压力** — 使用固定 SHA 的 100 个真实项目清单，要求逐项目记录证据类别、命令、状态、限制和报告路径。
+
+每个场景都要评估文档范围、路由说明、可选协调、证据标签、失败/恢复覆盖和无副作用行为。第 7、8 项还要评估多源证据完整性和项目级去重。
