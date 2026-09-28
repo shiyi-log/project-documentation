@@ -19,3 +19,15 @@
 - 利用 / Reuse: 后续每次同步、校验、提交、推送、远端改名和回滚均追加本台账；回滚路径为恢复迁移前提交或按 Git SHA 恢复集合目录，不删除本机原始技能。
 - 限制 / Limits: 本条目只记录基线和设计阶段；尚未修改技能目录、尚未执行 GitHub 仓库改名、尚未推送。
 - 下一步 / Next: 写入并自审集合仓库设计规范，随后请求用户复核规范。
+
+## 2026-09-28T18:26:08+08:00 — 提交集合仓库设计规范
+
+- 状态 / Status: 进行中
+- 目标 / Goal: 固化已批准的集合仓库设计，供实施前复核。
+- 读取 / Read: `docs/superpowers/specs/2026-09-28-codex-public-skills-design.md`、`docs/project-ledger.md` — 自审无未解决占位项，目录职责、同步边界、验证和回滚路径一致；`git diff --check` 通过。
+- 修改 / Write: `docs/superpowers/specs/2026-09-28-codex-public-skills-design.md`、`docs/project-ledger.md` — 提交设计规范和基线台账；规范提交 SHA 为 `1bdab27`；可逆：是。
+- 时间逻辑 / Time logic: 使用 `Asia/Shanghai`（UTC+08:00）记录设计提交时间；远端改名尚未执行。
+- 验证 / Verification: `git diff --cached --check` → 退出码 0；`git commit -m "docs: define public skills collection architecture"` → 退出码 0；静态/本地证据。
+- 利用 / Reuse: 后续实施计划和代码变更必须以该规范为边界；可通过恢复迁移前 SHA 或回滚本次设计提交恢复。
+- 限制 / Limits: 用户尚未复核书面规范；技能导入、敏感扫描、测试、GitHub 改名和推送均未运行。
+- 下一步 / Next: 等待用户复核设计文件，收到确认后编写实施计划。
