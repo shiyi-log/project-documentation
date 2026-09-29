@@ -55,3 +55,15 @@
 - 利用 / Reuse: 重装后可从 `https://github.com/shiyi-log/project-documentation.git` 克隆此仓库并对照远端 `main` SHA；本地 15 个技能、其他工作树和机器配置应另行进行私密离机备份与恢复校验。
 - 限制 / Limits: 这不是全机备份；公开仓库不适合承载认证文件、SSH 私钥或未经筛查的本机技能；Time Machine 当前没有可用目标。集合仓库迁移和远端改名仍仅为设计，未实施。
 - 下一步 / Next: 仅提交并推送本台账，核验远端最终 SHA；重装前由用户确定其他仓库的提交/推送范围与私密备份目的地，确认可读取备份后才能考虑抹盘。
+
+## 2026-09-29T13:40:21+08:00 — 本仓库交付关闭
+
+- 状态 / Status: 完成（仅限本仓库提交推送）；整机重装备份未完成。
+- 目标 / Goal: 关闭上一条的远端校验，并保留重装前的风险提示。
+- 读取 / Read: `git status --short --branch`、`git rev-parse HEAD`、`git rev-parse origin/main`、`git ls-remote --heads origin main` — 三处 SHA 均为 `cd735d9c10c3538645808f8944e04325b32d60e4`，工作树当时干净。
+- 修改 / Write: `docs/project-ledger.md` — 追加关闭条目；可逆：是。本条提交与推送后需再次执行相同的 SHA 核验。
+- 时间逻辑 / Time logic: 系统时钟，`Asia/Shanghai`（UTC+08:00）；以 SHA 而非时间证明提交已同步。
+- 验证 / Verification: 上一条台账提交 `cd735d9` 的推送、fetch、远端 SHA 回读退出码均为 0；本条自身提交与推送仍待最终核对。
+- 利用 / Reuse: 仓库恢复地址为 `https://github.com/shiyi-log/project-documentation.git`，以推送后的最终 SHA 为准；其他项目和私密资料需分别备份并验证恢复。
+- 限制 / Limits: Time Machine 无已配置目标；其他工作树含未推送提交或未提交变更；机器级设置、凭据与本机技能不在此公开仓库中。不能据此判断可以安全抹盘重装。
+- 下一步 / Next: 完成本条提交推送与最终远端核验；等待用户指定私密备份目标及其他仓库的处理范围，再继续整机重装准备。
